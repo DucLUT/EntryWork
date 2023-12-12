@@ -14,6 +14,8 @@ const findAllNonCompletedTasks = async () => {
 
 const findById = async (id) => {
   const rows = await sql`SELECT * FROM tasks WHERE id = ${ id }`;
+  
+
 
   if (rows && rows.length > 0) {
     return rows[0];

@@ -1,9 +1,1 @@
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+Here is a work-entry project including e2e testing using playwright
